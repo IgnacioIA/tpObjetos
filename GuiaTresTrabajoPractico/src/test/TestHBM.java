@@ -6,6 +6,6 @@ public class TestHBM {
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		session.beginTransaction();
 		session.close();
-		System.out.println("OK");
+		System.out.println("OK2");
 	}
 }
